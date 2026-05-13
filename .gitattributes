@@ -1,0 +1,2 @@
+# Treat .bin files as binary (no text conversion, no diff)
+*.bin binary
