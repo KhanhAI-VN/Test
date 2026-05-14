@@ -680,7 +680,11 @@ def train_coin(coin: str, device: torch.device):
     train_data = []
     for p in phases:
         if p in shifted_frames:
-            train_data.append(load_financial_data_df(shifted_frames[p], config.seq_len))
+            df_p = shifted_frames[p]
+            # Cut the last 180 days from training
+            if len(df_p) > 180:
+                df_p = df_p.iloc[:-180]
+            train_data.append(load_financial_data_df(df_p, config.seq_len))
 
     if not train_data:
         print(f"Error: No data found for {coin}")
