@@ -1,20 +1,26 @@
 coins:
-  - BTC
   - ETH
-  - SOL
-  - SHIB
-  - ADA
-  - XRP
-  - DOGE
-  - LINK
+  - BTC
   - BNB
+  - LTC
+  - ADA
+  - XLM
+  - XRP
+  - TRX
+  - LINK
+  - FET
+  - DASH
+  - ZEC
+  - ATOM
+  - DUSK
+  - DOGE
+  - HBAR
+  - CHZ
+  - STORJ
+  - JST
+  - DOT
+  - NMR
+  - SOL
+  - RUNE
   - AVAX
   - UNI
-  - ZEC
-  - LTC
-  - SUI
-  - DOT
-  - TON
-  - NEAR
-  - PEPE
-  - XLM
